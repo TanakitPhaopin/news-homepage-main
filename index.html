@@ -17,56 +17,150 @@
     <title>Frontend Mentor | News homepage</title>
   </head>
 
-  <body>
-    <nav>
-      <div>
-        <!--LOGO-->
+  <body class="bg-orange-50">
+    <nav class="py-2.5 px-10">
+      <div class="flex justify-between">
+        <img src="assets/images/logo.svg" alt="logo" class="size-max" />
+        <ul class="flex">
+          <li
+            class="mx-5 my-2.5 text-gray-700 hover:text-orange-400 duration-300"
+          >
+            <a href="">Home</a>
+          </li>
+          <li
+            class="mx-5 my-2.5 text-gray-700 hover:text-orange-400 duration-300"
+          >
+            <a href="">News</a>
+          </li>
+          <li
+            class="mx-5 my-2.5 text-gray-700 hover:text-orange-400 duration-300"
+          >
+            <a href="">Popular</a>
+          </li>
+          <li
+            class="mx-5 my-2.5 text-gray-700 hover:text-orange-400 duration-300"
+          >
+            <a href="">Trending</a>
+          </li>
+          <li
+            class="mx-5 my-2.5 text-gray-700 hover:text-orange-400 duration-300"
+          >
+            <a href="">Categories</a>
+          </li>
+        </ul>
       </div>
-      <div class=""></div>
     </nav>
-    <!-- <div>
-        <a href="" class="bg-slate-400">Home</a>
-        <a href="">News</a>
-        <a href="">Popular</a>
-        <a href="">Trending</a>
-        <a href="">Categories</a>
-      </div> -->
 
-    <!-- The Bright Future of Web 3.0?
+    <div class="py-2.5 px-10 flex justify-between">
+      <div class="w-7/12">
+        <div>
+          <img src="assets/images/image-web-3-desktop.jpg" alt="web image" />
+        </div>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+        <div class="0 flex justify-between my-3">
+          <div class="w-5/12 my-auto">
+            <p class="text-4xl font-extrabold">The Bright Future of Web 3.0?</p>
+          </div>
 
-  Read more
+          <div class="w-6/12">
+            <div class="pb-3">
+              <p class="text-gray-500">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+            </div>
+            <div>
+              <button
+                class="bg-orange-500 p-2 font-semibold text-sm hover:bg-orange-300 duration-300"
+              >
+                READ MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  New 
+      <div class="bg-black w-4/12 p-4 justify-around flex flex-col">
+        <p class="text-yellow-400 font-bold text-4xl mb-3">New</p>
+        <div>
+          <p class="text-white font-medium text-lg">
+            Hydrogen VS Electric Cars
+          </p>
+          <p class="text-gray-500">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
+        <hr class="border-gray-500" />
+        <div>
+          <p class="text-white font-medium text-lg">
+            The Downsides of AI Artistry
+          </p>
+          <p class="text-gray-500">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+        <hr class="border-gray-500" />
+        <div>
+          <p class="text-white font-medium text-lg">Is VC Funding Drying Up?</p>
+          <p class="text-gray-500">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </div>
+    </div>
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+    <div class="flex py-2.5 px-10 justify-between">
+      <div class="w-3/12 flex p-2">
+        <div class="my-auto pr-3 w-auto size-auto">
+          <img src="assets/images/image-retro-pcs.jpg" alt="retro" />
+        </div>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
+        <div class="w-auto flex flex-col justify-between">
+          <p class="font-bold text-3xl text-orange-500">01</p>
+          <p class="text-lg font-bold">Reviving Retro PCs</p>
+          <p class="text-sm text-gray-500">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
 
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+      <div class="w-3/12 flex p-2">
+        <div class="my-auto pr-3 w-auto size-auto">
+          <img src="assets/images/image-top-laptops.jpg" alt="retro" />
+        </div>
 
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
+        <div class="w-auto flex flex-col justify-between">
+          <p class="font-bold text-3xl text-orange-500">02</p>
+          <p class="text-lg font-bold">Top 10 Laptops of 2022</p>
+          <p class="text-sm text-gray-500">
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </div>
 
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
+      <div class="w-3/12 flex p-2">
+        <div class="my-auto pr-3 w-auto size-auto">
+          <img src="assets/images/image-gaming-growth.jpg" alt="retro" />
+        </div>
 
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities. -->
+        <div class="w-auto flex flex-col justify-between">
+          <p class="font-bold text-3xl text-orange-500">03</p>
+          <p class="text-lg font-bold">The Growth of Gaming</p>
+          <p class="text-sm text-gray-500">
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </div>
+    </div>
 
-    <div class="attribution">
+    <div class="text-center mt-5">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Tanakit Phaopin</a>.
     </div>
   </body>
 </html>
